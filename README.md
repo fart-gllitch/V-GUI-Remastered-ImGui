@@ -12,14 +12,14 @@ VGUI is a high-performance, production-ready 2D rendering library for DirectX 11
 Project/
 ├── main.cpp                    # Application entry point
 └── vgui/
-    ├── vgui.h            # Core initialization and D3D11 management
-    ├── vgui.cpp          # Core implementation
+    ├── vgui.h            # Main Declarations
+    ├── vgui.cpp          # useless
     ├── vgui_core.h            # Core initialization and D3D11 management
     ├── vgui_core.cpp          # Core implementation
     ├── vgui_draw.h            # Drawing API declarations
     ├── vgui_draw.cpp          # Drawing implementation
-    ├── vgui_streamproof.h            # Drawing API declarations
-    └── vgui_streamproof.cpp            # Drawing API declarations
+    ├── vgui_streamproof.h            # StreamProof Declarations
+    └── vgui_streamproof.cpp            # StreamProof Programming
     
 ```
 
@@ -368,3 +368,4 @@ To add features or report bugs:
 ---
 
 **Built with ❤️ from kamiiz**
+
